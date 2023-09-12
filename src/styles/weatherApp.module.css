@@ -1,0 +1,51 @@
+.weatherApp {
+  display: flex;
+  background-color: hsl(189, 68%, 16%);
+  color: #333;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.title {
+  color: white;
+  font-size: xx-large;
+  margin: 0;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.weatherInfo {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+.temperature {
+  background-color: hsl(52, 100%, 75%);
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.condition {
+  font-style: italic;
+}
+
+.weatherLogo {
+  max-width: 20rem;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+}
